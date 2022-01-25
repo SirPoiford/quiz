@@ -93,6 +93,22 @@
             }
         ],
         "correct": 1
+    },
+    
+    {
+        "id": 7,
+        "title": "Seventh Question",
+        "question": "What is Samira's favorite game?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Fortnite :)"
+            }, {
+                "id": 2,
+                "text": "YS VIII"
+            }
+        ],
+        "correct": 2
     }
     ]
 
