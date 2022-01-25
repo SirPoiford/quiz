@@ -29,8 +29,24 @@
             }
         ],
         "correct": 2
+    },
+    
+    {
+        "id": 3,
+        "title": "third Question",
+        "question": "What does Andrin think about French plus?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "he doesn't like it"
+            }, {
+                "id": 2,
+                "text": "it's his favorite subject"
+            }
+        ],
+        "correct": 1
     }
-]
+     ]
 
 
 
