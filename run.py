@@ -24,6 +24,17 @@ def check_answer(q_id, a_id):
 def home():
     return render_template("index.html")
 
+@app.route("/Malin")
+def Malin():
+    return render_template("Malin.html")
+
+@app.route("/Andrin")
+def Andrin():
+    return render_template("Andrin.html")
+
+@app.route("/Samira")
+def Samira():
+    return render_template("Samira.html")
 
 @app.route("/question")
 def question():
