@@ -25,7 +25,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/for q in question")
+@app.route("/question for q in question")
 def question():
     return render_template("question.html", question=random_question())
 
