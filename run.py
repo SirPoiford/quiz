@@ -25,9 +25,10 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/question for q in question")
-def question():
-    return render_template("question.html", question=random_question())
+@app.route("/question/<int:question-id")
+def q_id():
+    render_template("question.html", question_id+1)
+    else render_template("end.html")
 
 
 @app.route("/answer/<int:question_id>/<int:answer_id>")
