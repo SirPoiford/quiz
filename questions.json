@@ -49,7 +49,7 @@
     
     {
         "id": 4,
-        "title": "Fourth question",
+        "title": "Fourth Question",
         "question": "What is Malin's favorite subject?",
         "answers": [
             {
@@ -58,6 +58,22 @@
             }, {
                 "id": 2,
                 "text": "Geographics (it's so interesting:)"
+            }
+        ],
+        "correct": 2
+    },
+    
+    {
+        "id": 5,
+        "title": "Fifth Question",
+        "question": "What is Samira's favorite ProSeka Character?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Her what?"
+            }, {
+                "id": 2,
+                "text": "This doesn't even get mentioned on this website"
             }
         ],
         "correct": 2
