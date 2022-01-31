@@ -28,7 +28,7 @@ def home():
 @app.route("/question/<int:question-id")
 def q_id():
     render_template("question.html", question_id+1)
-    else render_template("end.html")
+    render_template("end.html")
 
 
 @app.route("/answer/<int:question_id>/<int:answer_id>")
