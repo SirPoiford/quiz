@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "First Question",
+        "title": "Question",
         "question": "What is Malin's second name?",
         "answers": [
             {
@@ -17,7 +17,7 @@
 
     {
         "id": 2,
-        "title": "Second Question",
+        "title": "Question",
         "question": "What is the name of Samira's dog?",
         "answers": [
             {
@@ -29,5 +29,21 @@
             }
         ],
         "correct": 2
+    },
+
+    {
+        "id": 3,
+        "title": "Question",
+        "question": "What does Andrin think about French plus?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "he doesn't like it"
+            }, {
+                "id": 2,
+                "text": "it's his favorite subject"
+            }
+        ],
+        "correct": 1
     }
-]
+    ]
